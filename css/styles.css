@@ -11,39 +11,89 @@ body {
     background-color: var(--primary-white-color);
 }
 
-/* li {list-style: none;} */
+li {list-style: none;
+    }
 
 .logo {color: #2196F3;
 font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+text-decoration: none;}
 
 .logo span{color: #212121;}
 
-
 /* Site navigation */
 .site-nav a {
-color: var(--primary-text-color);
-font-weight: 500 ;
-font-size: 14px;
-line-height: 1.14;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
-.site-nav a:hover,.site-nav a:focus{
-color: var(--accent-color)}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color)
+}
 
 /* Authorization */
 .auth-nav a {
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
-.auth-nav a:hover,.auth-nav a:focus {
-color: var(--accent-color);
+.auth-nav a:hover,
+.auth-nav a:focus {
+    color: var(--accent-color);
 }
+
+/* -------------------Студія------------------------------- */
+.studio-title h1{font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+background-color: #2F303A;
+color: var(--primary-white-color);}
+
+.button-studio {background-color: var(--accent-color);
+color: var(--primary-white-color);
+cursor: pointer;
+font-family: inherit;
+font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;}
+    
+.benefits h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;}
+.benefits p{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    color: var(--title-text-color);
+}
+
+.working h2, .team h2{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        color:var(--primary-text-color)
+}
+.team h3{        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.88;
+    }
+.team p{color: var(--title-text-color);
+    font-weight: 400;
+       line-height: 1.88;
+}
+/* -------------------------------------------------- */
 
 /* Filter */
 .button {
@@ -61,8 +111,8 @@ line-height: 1.63;
 
 /* Section */
 .section-title a{color:var(--primary-text-color);
-}
-.section h2{font-weight: 700;
+text-decoration: none;}
+.section-title h1{font-weight: 700;
 font-size: 18px;
 line-height: 2}
 .section-title p{color:var(--title-text-color);
@@ -80,7 +130,8 @@ top: 1628px;}
 font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 1.19;}
+line-height: 1.19;
+text-decoration: none;}
 
 .logo-two span{color: #FFFFFF}
 
@@ -89,10 +140,11 @@ line-height: 1.19;}
 font-style: normal;
 font-size: 14px;
 line-height: 1.71;
+
 }
 .adress a {
 color: var(--primary-white-color);
-}
+text-decoration: none;}
 .adress :hover,.adress a:focus {
     color: var(--accent-color)}
 
@@ -104,7 +156,7 @@ line-height: 1.71;
 }
 .mail a {
 color: rgba(255, 255, 255, 0.6);
-}
+text-decoration: none;}
 .mail :hover,.mail a:focus {
     color: var(--accent-color)
 }
