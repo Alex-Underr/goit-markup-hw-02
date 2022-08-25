@@ -52,6 +52,7 @@ text-decoration: none;}
 }
 
 /* -------------------Студія------------------------------- */
+.site-nav .current a{color: var(--accent-color);}
 .studio-title h1{font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -93,7 +94,7 @@ font-weight: 700;
     font-weight: 400;
        line-height: 1.88;
 }
-/* -------------------------------------------------- */
+/* ----------------------Portfolio-------------------- */
 
 /* Filter */
 .button {
@@ -112,7 +113,7 @@ line-height: 1.63;
 /* Section */
 .section-title a{color:var(--primary-text-color);
 text-decoration: none;}
-.section-title h1{font-weight: 700;
+.section-title h2{font-weight: 700;
 font-size: 18px;
 line-height: 2}
 .section-title p{color:var(--title-text-color);
